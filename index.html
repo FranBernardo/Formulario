@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <header>
+     <h1> Lista de compras</h1>
+    </header>
+
+    <section>
+      <h2>Informações de quem vai fazer as compras</h2>
+      <form action="">
+
+        <label for="lnome">Nome:</label>
+        <input type="text" name="lnome" id="lnome" placeholder="Nome completo"/><br><br>
+
+        <label for="ldata">Data:</label>
+        <input type="date" name="lata" id="ldata"/><br><br>
+
+        <label for="ltime"> Horario: </label>
+        <input type="time" name="ltime" id="ltime"/><br><br>
+
+        <label for=""> envie uma foto sua </label>
+        <input type="file" name="lfile" id="lfile"/><br><br>
+        <input type="button" value="OK">
+
+      </form>
+    </section>
+    <section>
+      <h1>Lista de Itens</h1>
+    <table>
+      <tr>
+      <th><input type="checkbox" name="chec" id="chec"></th>
+      <th>Produto</th>
+      <th>Qualidade</th>
+      <th>Valor</th>
+    </tr>
+      <tr>
+        <td><input type="checkbox" name="chec" id="chec"></td>
+        <td>Feijão</td>
+        <td>4</td>
+        <td>R$10</td>
+      </tr>
+
+      <tr>
+        <td><input type="checkbox" name="chec" id="chec"></td>
+        <td>Macarrão</td>
+        <td>4</td>
+        <td>R$10</td>
+
+      </tr>
+
+      <tr>
+        <td><input type="checkbox" name="chec" id="chec"></td>
+        <td>Leite</td>
+        <td>4</td>
+        <td>R$5</td>
+      </tr>
+      
+      <tr>
+        <td><input type="checkbox" name="chec" id="chec"></td>
+        <td>Manteiga</td>
+        <td>4</td>
+        <td>R$5</td>
+      </tr>
+
+      <tr>
+        <td><input type="checkbox" name="chec" id="chec"></td>
+        <td>Frutas/Verduras</td>
+        <td>4</td>
+        <td>R$10</td>
+      </tr>
+    </table>
+    </section>
+
+    <section class="login">
+      <h2>START LATAM RECIFE</h2>
+      <input type="email" name="lemail" id="lemail" placeholder="    email"/>
+      <input type="password" name="senha" id="senha" placeholder="    Password"/>
+
+      <input type="submit" id="botao" value="LOGIN">
+
+    </section>
+
+    <footer>
+      <p>created by &copy; Fran Bernardo 2020</p>
+    </footer>
+  </body>
+</html>
